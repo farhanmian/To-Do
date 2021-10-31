@@ -1,0 +1,21 @@
+.Main {
+    margin: 5rem auto;
+    width: 26rem;
+    height: 45rem;
+    background-color: #fff;
+    position: relative;
+    display: grid;
+    grid-template-rows: 5rem 5rem 1fr 5rem;
+    padding: .5rem;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 4px 7px 10px rgba(0,0,0,.2);
+    overflow-y: hidden;
+}
+
+
+.Main h1 {
+    font-family: 'Black Ops One', cursive;
+    text-decoration: underline;
+    font-weight: 100;
+}

@@ -1,0 +1,32 @@
+.ToDoForm {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ToDoForm input {
+    font-size: 17px;
+    color: #313131;
+    width: 60%;
+    padding: .3rem;
+    border-radius: 5px;
+    border: 1px solid #555555;
+    text-transform: capitalize;
+    box-sizing: border-box;
+}
+
+.ToDoForm input:focus {
+    outline: none;
+    border: 2px solid #db3b4e;
+}
+
+.ToDoForm button {
+    font-size: 17px;
+    background-color: #db3b4e;
+    color: #fff;
+    border: 0;
+    padding: .3rem .5rem;
+    border-radius: 3px;
+    cursor: pointer;
+    
+}
